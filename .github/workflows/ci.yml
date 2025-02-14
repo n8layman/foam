@@ -4,10 +4,10 @@ on:
   workflow_dispatch: 
   push:
     branches:
-      - master
+      - test
   pull_request:
     branches:
-      - master
+      - test
 
 jobs:
   typos-check:
